@@ -56,7 +56,7 @@ const baseConfig = {
     }),
     new FriendlyErrorsWebpackPlugin(),
     new webpack.DllReferencePlugin({
-      manifest: require('../public/library.json')
+      manifest: require('../public/react.json')
     })
   ],
   stats: 'normal',

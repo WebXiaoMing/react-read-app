@@ -2,12 +2,12 @@ const path = require('path')
 const webpack = require('webpack')
 module.exports = {
   entry: {
-    library: ['react', 'react-dom', 'redux'],
+    react: ['react', 'react-dom', 'redux'],
   },
   output: {
     filename: '[name].dll.js',
     path: path.resolve(__dirname, '../public'),
-    library: '[name]',
+    library: '[name]_[hash]',
   },
   plugins: [
     new webpack.DllPlugin({

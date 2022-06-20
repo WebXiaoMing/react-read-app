@@ -24,7 +24,7 @@ const prodConfig = merge(baseConfig, {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: path.join(__dirname, '../public/library.dll.js'), to: path.join(__dirname, '../dist/library.dll.js') }
+        { from: path.join(__dirname, '../public/react.dll.js'), to: path.join(__dirname, '../dist/react.dll.js') }
       ]
     })
   ],
