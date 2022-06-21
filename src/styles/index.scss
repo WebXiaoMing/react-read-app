@@ -1,12 +1,12 @@
-@import url('./normalize.less');
+@import url('normalize.scss');
 .root {
-  color: red;
+  color: #f23454;
 }
 
 .app {
   transform: translate(30%, 30%);
 }
 
-.unused {
+.unused.app {
   color: black;
 }

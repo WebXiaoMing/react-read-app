@@ -17,11 +17,11 @@ const baseConfig = {
   module: {
     rules: [
       {
-        test: /\.less/,
+        test: /\.scss/,
         use: [
           isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',
-          'less-loader',
+          'scss-loader',
           'postcss-loader',
         ],
       },
