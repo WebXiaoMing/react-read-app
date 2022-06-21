@@ -21,7 +21,7 @@ const baseConfig = {
         use: [
           isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
           'css-loader',
-          'scss-loader',
+          'sass-loader',
           'postcss-loader',
         ],
       },
